@@ -1,0 +1,47 @@
+<div id="presupuesto" class="modal fade" tabindex="-1" role="dialog">
+<div class="modal-dialog" role="document">
+  <div class="modal-content">
+    <div class="modal-body">
+      <form class="row">
+        <div class="col-md-12">
+            <a class="btn btn-primary center-block text-center" role="button" data-toggle="collapse" href="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                Da clic aqui para agregar botargas a tu servicio
+            </a>
+            <div class="collapse" id="collapseExample">
+              <div class="form-group">
+               <label for="select-no-botarga">Selecciona el número de horas a rentar</label>
+               <select id="select-no-botarga" class="form-control">
+                 <option>1 hora</option>
+                 <option>2 horas</option>
+                 <option>3 horas</option>
+                 <option>4 horas</option>
+                 <option>5 horas</option>
+                 <option>6 horas</option>
+               </select>
+             </div>
+             <div class="form-group">
+              <label for="select-no-botarga">Selecciona el número de botargas a rentar</label>
+              <select id="select-no-botarga" class="form-control">
+                <option>1</option>
+                <option>2</option>
+                <option>3</option>
+                <option>4</option>
+                <option>5</option>
+                <option>6</option>
+              </select>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-12">
+          <p id="totalcotizacion">El precio estimado para tu cotización es: $<span></span></p>
+        </div>
+      </form>
+
+    </div>
+    <div class="modal-footer">
+      <button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>
+      <a id="imprime" href="javascript:void(0)" class="btn btn-primary">Imprimir</a>
+    </div>
+  </div><!-- /.modal-content -->
+</div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
